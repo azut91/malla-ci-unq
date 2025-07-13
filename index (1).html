@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular - Gestión del CI</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004d7a;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      background: #f1f1f1;
+      color: #004d7a;
+      padding: 10px;
+      border-left: 6px solid #007acc;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f9f9f9;
+      margin-bottom: 6px;
+      padding: 12px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s ease;
+      border: 1px solid #ddd;
+    }
+    li:hover {
+      background: #e0f0ff;
+    }
+    li.completed {
+      background: #d1e7dd;
+      text-decoration: line-through;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 Malla Curricular - Lic. en Gestión del Comercio Internacional (UNQ)</h1>
+  </header>
+
+  <main>
+    <h2>🔰 Curso Inicial</h2>
+    <ul>
+      <li onclick="toggle(this)">Curso Inicial de Socialización (CIS)</li>
+    </ul>
+
+    <h2>🧱 Ciclo Básico</h2>
+    <ul>
+      <li onclick="toggle(this)">Inglés I</li>
+      <li onclick="toggle(this)">Inglés II</li>
+      <li onclick="toggle(this)">Administración I</li>
+      <li onclick="toggle(this)">Actuación Laboral</li>
+      <li onclick="toggle(this)">Actuación Tributaria</li>
+      <li onclick="toggle(this)">Contabilidad I</li>
+      <li onclick="toggle(this)">Economía I</li>
+      <li onclick="toggle(this)">Economía II</li>
+      <li onclick="toggle(this)">Estadística</li>
+      <li onclick="toggle(this)">Historia Social General</li>
+      <li onclick="toggle(this)">Introducción al Derecho</li>
+      <li onclick="toggle(this)">Matemática</li>
+      <li onclick="toggle(this)">Economía y Adm. en la Sociedad de la Información</li>
+      <li onclick="toggle(this)">Teoría Sociológica</li>
+    </ul>
+
+    <h2>🌐 Ciclo Profesional</h2>
+    <ul>
+      <li onclick="toggle(this)">Introducción al Comercio Internacional</li>
+      <li onclick="toggle(this)">Clasificación Arancelaria y Valoración Aduanera</li>
+      <li onclick="toggle(this)">Derecho y Legislación Aduanera</li>
+      <li onclick="toggle(this)">Operatoria y Práctica Aduanera</li>
+      <li onclick="toggle(this)">Marketing Internacional</li>
+      <li onclick="toggle(this)">Negociaciones Internacionales</li>
+      <li onclick="toggle(this)">Costos y Tributos</li>
+      <li onclick="toggle(this)">Instrumentos Financieros</li>
+      <li onclick="toggle(this)">Logística</li>
+      <li onclick="toggle(this)">Relaciones Económicas Internacionales</li>
+      <li onclick="toggle(this)">Integración Económica</li>
+      <li onclick="toggle(this)">Macroeconomía</li>
+      <li onclick="toggle(this)">Teorías del CI</li>
+      <li onclick="toggle(this)">Normas de calidad y medioambiente</li>
+    </ul>
+
+    <h2>🧩 Electivas</h2>
+    <ul>
+      <li onclick="toggle(this)">Evaluación de Proyectos</li>
+      <li onclick="toggle(this)">Comercio Electrónico</li>
+      <li onclick="toggle(this)">Gestión de PYMES</li>
+      <li onclick="toggle(this)">Metodología y Estadística</li>
+      <li onclick="toggle(this)">Cambios en la Estructura Industrial</li>
+      <li onclick="toggle(this)">Sector Externo Argentino</li>
+      <li onclick="toggle(this)">Tópicos de Economía Internacional</li>
+      <li onclick="toggle(this)">Ética y Ejercicio Profesional</li>
+      <li onclick="toggle(this)">Matemática Financiera</li>
+      <li onclick="toggle(this)">Dirección Estratégica</li>
+      <li onclick="toggle(this)">Dirección Financiera</li>
+      <li onclick="toggle(this)">Dirección de Producción</li>
+    </ul>
+  </main>
+
+  <footer>
+    Hecho con 💙 por Azul D’Andrea – Universidad Nacional de Quilmes
+  </footer>
+
+  <script>
+    function toggle(el) {
+      el.classList.toggle("completed");
+    }
+  </script>
+</body>
+</html>
